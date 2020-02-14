@@ -10,5 +10,5 @@ def map(array)
 end
 
 def reduce(source_array, starting_val = 0)
-
+  
 end
