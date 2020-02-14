@@ -10,5 +10,12 @@ def map(array)
 end
 
 def reduce(source_array, starting_val = 0)
-  total = starting_val
+  if starting_val
+    i = 0
+    num1 = starting_val
+  else
+    num1 = source_array[0]
+    i - 1
+  end
+
 end
