@@ -20,4 +20,7 @@ def reduce(source_array, starting_val = 0)
 
   while i < source_array.length
     sum = yield(sum, array[i])
+    i += 1
+  end
+  sum
 end
